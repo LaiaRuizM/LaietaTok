@@ -16,7 +16,10 @@ main {
   border: 1px solid #fff;
   aspect-ratio: 9/16; /*mobile aspect*/
   border-radius: 3px;
-  max-width: 375px;
-  width: 100vw;
+  overflow-y: scroll;
+  height: auto;
+  width: 375;
+  /* max-width: 375px; */
+  /* width: 100vw; */
   display: block;
 }
