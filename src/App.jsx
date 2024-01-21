@@ -5,8 +5,9 @@ import VideoPlayer from "../src/components/VideoPlayer/index.jsx";
 function App() {
   return (
     <div className="App">
-      <main>TikTok Clone</main>
-      <VideoPlayer />
+      <main>
+        <VideoPlayer />
+      </main>
     </div>
   );
 }

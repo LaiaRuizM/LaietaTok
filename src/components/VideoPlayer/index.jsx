@@ -1,5 +1,8 @@
-const SRC =
-  "https://www.tiktok.com/@iselavillasana/video/7215310094232259883?is_from_webapp=1&sender_device=pc";
+import React from "react";
+import SRC2 from "../VideoPlayer/coffee.gif";
+
+// const SRC = "../coffee.gif";
+
 export default function VideoPlayer() {
-  return <video src={SRC} controls={false} />;
+  return <video type="text/html" src={SRC2} controls={false} />;
 }
